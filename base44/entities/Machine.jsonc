@@ -1,1 +1,99 @@
-
+{
+  "name": "Machine",
+  "type": "object",
+  "properties": {
+    "manufacturer": {
+      "type": "string",
+      "title": "Manufacturer"
+    },
+    "model": {
+      "type": "string",
+      "title": "Model"
+    },
+    "year": {
+      "type": "integer",
+      "title": "Year"
+    },
+    "operatingHours": {
+      "type": "integer",
+      "title": "Operating Hours"
+    },
+    "price": {
+      "type": "number",
+      "title": "Price"
+    },
+    "currency": {
+      "type": "string",
+      "title": "Currency",
+      "default": "JPY"
+    },
+    "condition": {
+      "type": "string",
+      "title": "Condition",
+      "enum": [
+        "New",
+        "Used"
+      ],
+      "default": "Used"
+    },
+    "location": {
+      "type": "string",
+      "title": "Location (Japanese)"
+    },
+    "locationEn": {
+      "type": "string",
+      "title": "Location (Romaji / English)"
+    },
+    "description": {
+      "type": "string",
+      "title": "Description (English)"
+    },
+    "descriptionJp": {
+      "type": "string",
+      "title": "Description (Japanese)"
+    },
+    "category": {
+      "type": "string",
+      "title": "Category"
+    },
+    "photos": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "title": "Photo URLs"
+    },
+    "availability": {
+      "type": "string",
+      "title": "Availability",
+      "enum": [
+        "available",
+        "reserved",
+        "sold"
+      ],
+      "default": "available"
+    }
+  },
+  "required": [
+    "manufacturer",
+    "model"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}
