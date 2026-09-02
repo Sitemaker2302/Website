@@ -1,0 +1,82 @@
+[
+  {
+    "id": "seed_1",
+    "manufacturer": "KOMATSU",
+    "model": "PC200-8",
+    "year": 2015,
+    "operatingHours": 4200,
+    "price": null,
+    "currency": "JPY",
+    "condition": "Used",
+    "location": "月形町, 北海道, 日本",
+    "locationEn": "Tsukigata-cho, Hokkaido, Japan",
+    "description": "A well-maintained Komatsu PC200-8 excavator, inspected in Japan and ready for export. Reliable hydraulic performance and clean cabin.",
+    "descriptionJp": "日本で点検済みの Komatsu PC200-8 ショベルカーターく輸出準備完了。安定した油圧性能ときれいなキャビン",
+    "category": "Wheel Loader",
+    "photos": [
+      "https://images.unsplash.com/photo-1580901368855-059c4792ff22?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "availability": "available",
+    "created_date": "2025-01-10T00:00:00.000Z"
+  },
+  {
+    "id": "seed_2",
+    "manufacturer": "KUBOTA",
+    "model": "M7-412",
+    "year": 2018,
+    "operatingHours": 1850,
+    "price": null,
+    "currency": "JPY",
+    "condition": "Used",
+    "location": "月形町, 北海道, 日本",
+    "locationEn": "Tsukigata-cho, Hokkaido, Japan",
+    "description": "Compact and powerful Kubota tractor suited for agricultural export. Low hours, excellent condition.",
+    "descriptionJp": "農業輸出に適したコンパクトで力強い Kubota トラクター。低稼働時間で状態良好",
+    "category": "Tractor",
+    "photos": [
+      "https://images.unsplash.com/photo-1591486085897-f433f05e7aed?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "availability": "reserved",
+    "created_date": "2025-02-05T00:00:00.000Z"
+  },
+  {
+    "id": "seed_3",
+    "manufacturer": "CAT",
+    "model": "320D L",
+    "year": 2013,
+    "operatingHours": 7800,
+    "price": null,
+    "currency": "JPY",
+    "condition": "Used",
+    "location": "月形町, 北海道, 日本",
+    "locationEn": "Tsukigata-cho, Hokkaido, Japan",
+    "description": "Cat 320D L hydraulic excavator, durable and export-ready. Fully serviced before shipment.",
+    "descriptionJp": "Cat 320D L 油圧ショベル。耐久性があり輸出準備完了、出荷前にフル整備済み",
+    "category": "Wheel Loader",
+    "photos": [
+      "https://images.unsplash.com/photo-1606811883055-0d24f05c8bcd?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "availability": "available",
+    "created_date": "2025-03-18T00:00:00.000Z"
+  },
+  {
+    "id": "seed_4",
+    "manufacturer": "YANMAR",
+    "model": "Vio60-6",
+    "year": 2017,
+    "operatingHours": 2600,
+    "price": null,
+    "currency": "JPY",
+    "condition": "Used",
+    "location": "月形町, 北海道, 日本",
+    "locationEn": "Tsukigata-cho, Hokkaido, Japan",
+    "description": "Yanmar Vio60-6 mini excavator, ideal for versatile job sites. Inspected and export ready.",
+    "descriptionJp": "Yanmar Vio60-6 ミニショベル。多様な作業現場に最適、点検済みで輸出準備完了",
+    "category": "Tractor",
+    "photos": [
+      "https://images.unsplash.com/photo-1629807473015-41699c4471b5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "availability": "available",
+    "created_date": "2025-04-02T00:00:00.000Z"
+  }
+]
